@@ -1,75 +1,82 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/openhairstack/.github/main/profile/logo.svg" width="120" alt="Open Hair Stack" />
+  <img src="https://raw.githubusercontent.com/openhairstack/.github/main/profile/logo.svg" width="130" alt="Open Hair Stack Logo" />
   <h1>Open Hair Stack</h1>
-  <p><b>Open-source tools for hair restoration research — and a free demo anyone can try in 30 seconds.</b></p>
+  <p><b>Open-source computer vision tools for hair restoration research — with a private, zero-install browser demo anyone can try.</b></p>
+
+  <p>
+    <a href="https://huggingface.co/spaces/openhairstack/scalp-analyzer"><img src="https://img.shields.io/badge/Live%20Demo-HuggingFace%20Space-blue?style=flat-square" alt="Live Demo" /></a>
+    <a href="https://github.com/openhairstack/governance/blob/main/CHARTER.md"><img src="https://img.shields.io/badge/License-Apache%202.0%20%7C%20CC%20BY%204.0-green?style=flat-square" alt="License" /></a>
+    <a href="https://x.com/salik"><img src="https://img.shields.io/badge/Founder-@salik%20on%20X-black?style=flat-square&logo=x" alt="X / Twitter" /></a>
+  </p>
 </div>
 
 ---
 
-### The 30-second version
+### The 30-Second Summary
 
-Hair transplants are already performed by robots. Those machines cost $200,000+ and run on
-software you can't see, can't check, and can't improve. Meanwhile the research that could
-verify and improve that software sits in scattered papers with locked-down datasets.
+Hair restoration and follicular unit extraction (FUE) are increasingly powered by robotic systems. Today, those systems cost upwards of $200,000 and run on closed, proprietary software that independent researchers, clinicians, and patients cannot inspect, audit, or build upon.
 
-We think the tools should be public.
+Meanwhile, academic research on follicle detection remains scattered across papers with private, unreleased datasets.
 
-So we're building them in the open: a shared dataset of carefully labeled scalp images,
-detection models anyone can retrain, and a free website tool where you can upload a scalp
-photo and watch the analysis happen.
+**We believe the scientific foundation of hair health should be open to everyone.**
 
-No paywall. No accounts. No black boxes.
+**Open Hair Stack** is building a transparent, community-driven ecosystem:
+- **Clean Data:** Publicly licensed, carefully annotated trichoscopy datasets.
+- **Reproducible Vision Models:** Lightweight detection models anyone can train on free cloud compute.
+- **Client-Side Browser Demo:** A private web tool where you can test follicle detection directly on your device with zero server uploads.
 
----
-
-### Try it (no signup)
-
-**[Scalp Analyzer demo → upload a photo, see follicular-unit detection and density stats](https://huggingface.co/spaces/openhairstack/scalp-analyzer)**
-
-It detects the little bundles hair grows in, counts how many hairs are in each one, and
-estimates density. It's a research demo, not a medical tool — [exactly what it isn't](https://github.com/openhairstack/scalp-analyzer#what-this-is-not),
-in writing.
+No paywalls. No mandatory accounts. No closed black boxes.
 
 ---
 
-### What we're building
+### Try the Demo (Free & 100% Private)
 
-| | | |
+👉 **[Launch the Scalp Analyzer Demo](https://huggingface.co/spaces/openhairstack/scalp-analyzer)**
+
+* **Client-Side AI:** The detection model (YOLO11n via ONNX Runtime Web) runs directly in your web browser. Your photos are **never uploaded to any server or cloud database**, ensuring complete privacy.
+* **Follicular-Unit Analysis:** Automatically counts hair bundles (`fu1` to `fu5`) and estimates local follicular density.
+* **Educational & Research Purpose:** Built strictly for research exploration and benchmarking, not clinical medical diagnosis.
+
+---
+
+### The Core Repositories
+
+| Repository | What It Provides | How to Get Involved |
 |---|---|---|
-| **Open data** | [data-pipeline](https://github.com/openhairstack/data-pipeline) — every openly-licensed follicle dataset in one place, plus tools that catch broken annotations. The goal: the biggest freely-redistributable scalp dataset in the world. | labelers welcome, no code needed |
-| **Open models** | [follicle-detect](https://github.com/openhairstack/follicle-detect) — train a hair-follicle detector in one click on free cloud compute. Every model we publish comes with its scores, including the mediocre ones. | CV/ML contributors |
-| **Open demo** | [scalp-analyzer](https://github.com/openhairstack/scalp-analyzer) — the public website tool. Every number it prints is a function you can read in the code. | try it, break it, file issues |
-| **Open rules** | [governance](https://github.com/openhairstack/governance) — how the project is run, who decides what, and what it will never do (see the Charter). | read the one-page Charter |
+| 📂 **[data-pipeline](https://github.com/openhairstack/data-pipeline)** | Clean CC-BY trichoscopy datasets, automatic re-labelers, and annotation validation tools. | Labelers & trichology enthusiasts welcome — no code needed. |
+| 👁️ **[follicle-detect](https://github.com/openhairstack/follicle-detect)** | YOLO11 training pipeline with a one-click Google Colab notebook and published baseline weights. | ML engineers & computer vision researchers. |
+| 🔬 **[scalp-analyzer-web](https://github.com/openhairstack/scalp-analyzer-web)** | Client-side web demo powered by WebAssembly. Zero hosting cost, private by design. | Web developers & UI/UX contributors. |
+| ⚖️ **[governance](https://github.com/openhairstack/governance)** | Our project charter, ethics policies, contributor guidelines, and plain-English glossary. | Review our [Charter](https://github.com/openhairstack/governance/blob/main/CHARTER.md) and join discussions. |
 
-**Just curious?** [Start with the glossary](https://github.com/openhairstack/governance/blob/main/GLOSSARY.md) — "follicle unit", "graft", "mAP", in plain English. We wrote it for journalists and family members.
-
----
-
-### Why open source here
-
-- **The bottleneck is labeled data.** One lab can label 700 images. Fifty labs and students
-  can label 35,000. That's the whole math of why this shouldn't be a private effort.
-- **Everyone should be able to check the answers.** Right now, follicle detection claims
-  across this field can't even be compared to each other — different datasets, different
-  formats, no shared benchmark. Publishing our mediocre v0.1 with its scores gives the field
-  a floor to stand on.
-- **It should be usable where the machines aren't.** Most clinics in the world will never
-  see a $200k robot. Open verification tools run on a laptop.
+> 💡 **New to the terminology?** Read our **[Plain-English Glossary](https://github.com/openhairstack/governance/blob/main/GLOSSARY.md)** explaining terms like *follicular unit*, *donor density*, and *mAP* in simple language.
 
 ---
 
-### Our ground rules (short version)
+### Why Open Source?
 
-1. **Everything is open.** Code: Apache 2.0. Data: CC BY 4.0.
-2. **No patient data. Ever.** Photos of identifiable people never enter our datasets. [Charter](https://github.com/openhairstack/governance/blob/main/CHARTER.md).
-3. **Not a medical device.** Nothing here diagnoses or treats anyone. We say so everywhere.
-4. **We publish our failures.** v0.1 scores are mediocre *on purpose* — a public floor beats a secret ceiling.
-5. **The roadmap includes kill criteria.** If people don't use it, we sunset it gracefully and archive it.
+1. **Collaborative Data Scaling:** A single lab can annotate a few hundred images. A distributed open community of researchers, clinics, and contributors can curate tens of thousands of diverse trichoscopy cases across all hair textures and scalp conditions.
+2. **Transparent Benchmarking:** Current literature lacks standardized public benchmarks. Publishing our v0.1 baseline scores unvarnished establishes an honest, reproducible benchmark floor for the entire field.
+3. **Global Accessibility:** Specialized clinics in major medical centers may afford robotic systems, but independent researchers, students, and clinics worldwide deserve access to open verification tools.
 
-<br/>
+---
+
+### Ground Rules & Values
+
+* **Open Licenses:** Code is licensed under **Apache 2.0**; datasets and documentation under **CC BY 4.0**.
+* **Zero Patient Data Liability:** Only non-identifiable, license-clean trichoscopic images enter our datasets.
+* **Not a Medical Device:** Open Hair Stack is research and educational software. It does not provide medical advice, diagnosis, or surgical planning.
+* **Transparent Metrics:** We publish all evaluation numbers openly. A transparent public baseline beats an unverifiable claim.
+
+---
 
 <div align="center">
-  <b>Questions, press, or just curious?</b> DM <a href="https://x.com/salik">@salik on X</a> ·
-  <a href="https://github.com/orgs/openhairstack/discussions">GitHub Discussions</a><br/>
-  <sub>Built by people who think the machines moving your hair around shouldn't be black boxes.</sub>
+  <h3>Questions, Press, or Community Support?</h3>
+  <p>Connect directly with founder Salik Shah for questions, collaborations, or support:</p>
+  <p>
+    💬 <b>DM on X:</b> <a href="https://x.com/salik"><b>@salik</b></a> &nbsp;·&nbsp;
+    💬 <b>GitHub:</b> <a href="https://github.com/orgs/openhairstack/discussions">Discussions</a> &nbsp;·&nbsp;
+    🌐 <b>Org:</b> <a href="https://github.com/openhairstack">openhairstack</a>
+  </p>
+  <br/>
+  <sub><i>Open Hair Stack — Open science and computer vision for hair restoration research.</i></sub>
 </div>
