@@ -1,0 +1,6 @@
+# GitHub Organization-Wide Sponsor Configuration
+# Reference: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+
+custom:
+  - https://x.com/salik
+  - https://github.com/openhairstack/governance/blob/main/COMMONS-AND-INVESTMENT.md
