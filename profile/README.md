@@ -15,7 +15,7 @@
 </div>
 
 > [!TIP]
-> **Strategic Collaboration, Research & Sponsor Inquiries:** We are partnering with clinical trichologists, physical AI roboticists, and strategic capital to accelerate the public biomedical frontier. Review our [Commons, Governance & Investment Blueprint](https://github.com/openhairstack/governance/blob/main/COMMONS-AND-INVESTMENT.md) or submit a proposal via the [Intake Form](https://tally.so/r/3yPJEk). Direct inquiries: [@salik on X](https://x.com/salik).
+> **Strategic Collaboration, Research & Sponsor Inquiries:** We are partnering with clinical trichologists, physical AI roboticists, and strategic capital to accelerate the public biomedical frontier. Review our [Commons, Governance & Investment Blueprint](https://github.com/openhairstack/governance/blob/main/COMMONS-AND-INVESTMENT.md) or submit a proposal via the [Intake Form](https://tally.so/r/o96OkV). Direct inquiries: [@salik on X](https://x.com/salik).
 
 ---
 
