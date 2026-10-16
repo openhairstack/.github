@@ -1,21 +1,26 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/openhairstack/.github/main/profile/logo.svg" width="130" alt="Open Hair Stack Emblem" />
+  <img src="assets/banner_16x9_hair_is_care_rock_his_mane.jpg" width="100%" alt="Hair is Care — Help Kera Rock His Mane!" style="border-radius: 8px; margin-bottom: 20px;" />
+  <br />
+  <img src="logo.svg" width="100" alt="Open Hair Stack Emblem" />
   <h1>Open Hair Stack</h1>
-  <p><b>Open-source computer vision, standardized datasets, and stereotaxic robotics for autonomous hair restoration and bio-implantation.</b></p>
+  <p><b>HAIR IS CARE // Open-source computer vision, standardized datasets, and stereotaxic robotics for autonomous hair restoration and bio-implantation.</b></p>
 
   <p>
     <a href="https://huggingface.co/spaces/openhairstack/scalp-analyzer"><img src="https://img.shields.io/badge/Live%20Demo-HuggingFace%20Space-blue?style=flat-square" alt="Live Demo" /></a>
     <a href="https://huggingface.co/openhairstack/follicle-fu-v0.1"><img src="https://img.shields.io/badge/Model%20Zoo-follicle--fu--v0.1-orange?style=flat-square" alt="Model Zoo" /></a>
+    <a href="PRESS_KIT.md"><img src="https://img.shields.io/badge/Press%20Kit-Creatives%20%26%20Videos-red?style=flat-square" alt="Press Kit" /></a>
+    <a href="https://github.com/openhairstack/press/blob/main/JOURNALIST_GUIDE.md"><img src="https://img.shields.io/badge/Media%20Guide-Journalist%20Pack-purple?style=flat-square" alt="Media Guide" /></a>
     <a href="https://github.com/openhairstack/governance/blob/main/COMMONS-AND-INVESTMENT.md"><img src="https://img.shields.io/badge/Sponsor%20%26%20Invest-Commons%20Blueprint-yellow?style=flat-square" alt="Sponsor & Invest" /></a>
     <a href="https://github.com/openhairstack/.github/blob/main/AWESOME.md"><img src="https://img.shields.io/badge/Research%20Library-Awesome%20List-purple?style=flat-square" alt="Awesome Research Library" /></a>
-    <a href="https://github.com/openhairstack/.github/blob/main/SKILL.md"><img src="https://img.shields.io/badge/Agent%20Ready-SKILL.md-success?style=flat-square" alt="Agent Ready Skill" /></a>
     <a href="https://github.com/openhairstack/governance/blob/main/CHARTER.md"><img src="https://img.shields.io/badge/License-Apache%202.0%20%7C%20CC%20BY%204.0-green?style=flat-square" alt="License" /></a>
-    <a href="https://x.com/salik"><img src="https://img.shields.io/badge/Contact-@salik%20on%20X-black?style=flat-square&logo=x" alt="Contact on X" /></a>
+    <a href="https://x.com/salik"><img src="https://img.shields.io/badge/Project%20Lead-@salik%20on%20X-black?style=flat-square&logo=x" alt="Contact on X" /></a>
   </p>
 </div>
 
 > [!TIP]
-> **Strategic Collaboration, Research & Sponsor Inquiries:** We are partnering with clinical trichologists, physical AI roboticists, and strategic capital to accelerate the public biomedical frontier. Review our [Commons, Governance & Investment Blueprint](https://github.com/openhairstack/governance/blob/main/COMMONS-AND-INVESTMENT.md) or submit a proposal via the [Intake Form](https://tally.so/r/o96OkV). Direct inquiries: [@salik on X](https://x.com/salik).
+> **🦁 The Mascot Mission: "Help Kera Rock His Mane!"**  
+> Meet **Dr. Kera**—our beloved marshmallow physician mascot. Despite being a brilliant hair researcher, he is down to his very last golden sprout! His lifelong dream is an epic rockstar lion mohawk mane. But proprietary surgical robots cost \$250,000.  
+> We believe medicine should never be a closed black box. **Hair isn't just cosmetic... hair is care!** Every GitHub star, donated trichoscopy dataset, and robotic kinematics PR trains our open algorithms and earns Dr. Kera his legendary mane. **[Join the mission & fork the stack!](https://github.com/openhairstack)**
 
 ---
 
