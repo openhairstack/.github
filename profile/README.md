@@ -6,7 +6,7 @@
   <p>
     <a href="https://huggingface.co/spaces/openhairstack/scalp-analyzer"><img src="https://img.shields.io/badge/Live%20Demo-HuggingFace%20Space-blue?style=flat-square" alt="Live Demo" /></a>
     <a href="https://github.com/openhairstack/governance/blob/main/CHARTER.md"><img src="https://img.shields.io/badge/License-Apache%202.0%20%7C%20CC%20BY%204.0-green?style=flat-square" alt="License" /></a>
-    <a href="https://x.com/salik"><img src="https://img.shields.io/badge/Founder-@salik%20on%20X-black?style=flat-square&logo=x" alt="X / Twitter" /></a>
+    <a href="https://x.com/salik"><img src="https://img.shields.io/badge/Contact-@salik%20on%20X-black?style=flat-square&logo=x" alt="X / Twitter" /></a>
   </p>
 </div>
 
@@ -70,10 +70,10 @@ No paywalls. No mandatory accounts. No closed black boxes.
 ---
 
 <div align="center">
-  <h3>Questions, Press, or Community Support?</h3>
-  <p>Connect directly with founder Salik Shah for questions, collaborations, or support:</p>
+  <h3>Questions, Press, or Technical Collaboration?</h3>
+  <p>A project by Salik Shah. Connect for questions, technical discussions, or collaborations:</p>
   <p>
-    💬 <b>DM on X:</b> <a href="https://x.com/salik"><b>@salik</b></a> &nbsp;·&nbsp;
+    💬 <b>Contact on X:</b> <a href="https://x.com/salik"><b>@salik</b></a> &nbsp;·&nbsp;
     💬 <b>GitHub:</b> <a href="https://github.com/orgs/openhairstack/discussions">Discussions</a> &nbsp;·&nbsp;
     🌐 <b>Org:</b> <a href="https://github.com/openhairstack">openhairstack</a>
   </p>
